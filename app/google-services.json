@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "128881378251",
+    "firebase_url": "https://fir-loginapp-92290.firebaseio.com",
+    "project_id": "fir-loginapp-92290",
+    "storage_bucket": "fir-loginapp-92290.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128881378251:android:cbb916b435b7a191",
+        "android_client_info": {
+          "package_name": "com.muza.trackerun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128881378251-s4301aogkrivja1jq8qnt5cmjqjlaa8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO0W-_qw19Mz3tNRVfKYad8MnPvyXDvfc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

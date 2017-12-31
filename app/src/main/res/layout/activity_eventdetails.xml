@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muza.trackerun.eventdetails"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:background="@drawable/bg">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="49dp"
+        android:layout_alignLeft="@+id/btnJoin"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnJoin"
+        android:layout_marginTop="26dp"
+        android:text="FSKM GET FIT 2.0"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="359dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/btnJoin"
+        android:layout_alignEnd="@+id/btnJoin"
+        android:layout_alignRight="@+id/btnJoin"
+        android:layout_marginBottom="90dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fskm"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-71dp"
+        android:layout_alignBottom="@+id/txtDescription"
+        android:layout_alignRight="@+id/txtDescription"
+        android:layout_alignEnd="@+id/txtDescription"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="363dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:onClick="toMapsActivity"
+        android:text="Track Route"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+</RelativeLayout>
